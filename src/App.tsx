@@ -1,3 +1,9 @@
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  const printHello = () => console.log("hello");
+  return (
+    <>
+      <div>App</div>
+      <button onClick={printHello}>클릭</button>
+    </>
+  );
 }
