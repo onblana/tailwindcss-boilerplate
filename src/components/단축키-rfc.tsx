@@ -1,3 +1,3 @@
-export default function rfc() {
-  return <div>rfc</div>;
+export default function empty() {
+  return <div>empty</div>;
 }
