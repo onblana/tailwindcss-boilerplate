@@ -1,9 +1,9 @@
 export default function App() {
-  const printHello = () => console.log("hello");
   return (
     <>
-      <div>App</div>
-      <button onClick={printHello}>클릭</button>
+      <h1>App</h1>
+      <p>hello</p>
+      <span>how are you?</span>
     </>
   );
 }
